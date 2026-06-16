@@ -24,14 +24,14 @@ pipeline{
       {
         steps
       {
-        sh './gradle test'
+        sh './gradlew test'
       }
       }
       stage ('Run')
       {
         steps
         {
-          sh './gradle run'
+          sh './gradlew run'
         }
       }
     }

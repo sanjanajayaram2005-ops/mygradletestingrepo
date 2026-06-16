@@ -9,7 +9,7 @@ pipeline{
     {
       steps
       {
-        git branch : 'master' , url : ''
+        git branch : 'master' , url : 'https://github.com/sanjanajayaram2005-ops/mygradletestingrepo.git'
       }
     }
     stage ('Build')
